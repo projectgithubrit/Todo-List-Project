@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(198, 235, 187);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Flex Box  */
+.container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+.todoList h2 {
+  font-size: 50px;
+  margin: 0 0 20px;
+  font-weight: 700;
+}
+.mark {
+  text-decoration: line-through;
+}
+.todoList {
+  background: #eee;
+  width: 700px;
+  margin: 40px auto 0;
+  border-radius: 8px;
+  padding: 27px 40px;
+}
+.todoList form .fieldBx {
+  display: flex;
+  align-items: center;
+  margin: 0 0 8px;
+  width: 100%;
+}
+.todoList form .fieldBx label {
+  display: block;
+  width: 130px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.todoList form .fieldBx .formControl {
+  width: 510px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  padding: 0 15px;
+}
+.todoList form .fieldBx button {
+  height: 36px;
+  width: 100px;
+  background: #4a73e9;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  margin: 3px 30px 0 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+.todoList form .fieldBx:last-child {
+  justify-content: end;
+}
+.todolist {
+  display: flex;
+  padding: 50px;
+}
+.todolist ul {
+  list-style: none;
+}
+.todolist li {
+  line-height: 25px;
+  display: inline-block;
+}
+.todolist button {
+  padding: 7px;
+  margin-right: 5px;
+  background: #4a73e9;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+.newtodo {
+  flex-direction: row;
+  margin-right: 20px;
+  background: gainsboro;
+  padding: 20px;
+  border-radius: 4px;
+}
+.navtag li {
+  display: inline-block;
+  padding: 10px;
+  background: #eee;
+  margin: 20px 10px;
+  border-radius: 4px;
+}
+.navtag li a {
+  text-decoration: none;
+}
+nav {
+  margin-left: 20px;
+}
